@@ -1,1 +1,3 @@
 export const SET_SEARCHED_RECIPES = 'SET_SEARCHED_RECIPES'
+export const INIT_FIREBASE = 'INIT_FIREBASE'
+export const SET_SNAP = 'SET_SNAP'

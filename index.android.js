@@ -7,6 +7,7 @@ import reducer from './app/reducers'
 import AppContainer from './app/containers/AppContainer'
 import { AppRegistry } from 'react-native'
 
+
 const loggerMiddleware = createLogger({ predicate: (getState, action) => __DEV__ })
 
 function configureStore(initialState){
@@ -20,6 +21,7 @@ function configureStore(initialState){
 } 
 
 const store = configureStore({})
+
 
 
 
