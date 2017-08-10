@@ -13,7 +13,7 @@ class Main extends Component{
 
         return ( 
             <View>
-                <Text>Launch Screen</Text>
+                <Text>Launch Screen!</Text>
             </View>
         )
     }
